@@ -1,0 +1,17 @@
+news "jezezem youth kid 1"
+	name
+		word
+			"Young "
+		word
+			"Family"
+	location
+		government "Jezezem"
+	message
+		word
+			"The little half-giraffe you see walking with her parents stops a moment, peers at you a moment, then keeps walking, even if a bit quicker than before."
+
+news "old halfy"
+	name
+		word
+			"Spaceport Duty Jezezem"
+	

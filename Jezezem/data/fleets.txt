@@ -1,0 +1,15 @@
+fleet "Large Jezezem"
+	government Jezezem
+	names 0-F
+	fighters
+		names 0-F
+		personality
+			confusion 20
+			nemesis 
+	outfitters "Basic Outfits" "Lovelace Advanced"
+	personality
+		confusion 10
+		heroic
+		hunting
+	variant
+		"Ruby Donkey" 3

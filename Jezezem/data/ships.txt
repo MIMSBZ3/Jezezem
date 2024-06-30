@@ -1,0 +1,184 @@
+ship "Jezezem Combat Drone"
+	"display name" "Combat Drone"
+	sprite "ship/combat drone"
+	attributes
+		cost 2000000
+		category "Drone"
+		"mass" 100
+		"drag" 5
+		"hull" 300
+		"shields" 0
+		"fuel capacity" 0
+		"automaton" 1
+		"bunks" 0
+		"outfit space" 10
+		"cargo space" 0
+		"engine capacity" 200
+		"weapon capacity" 15
+		"thrust" 1
+		"turn" 1
+	outfits
+#		"Twin Tharwag Cannon Turret"
+		`"Laser Turret`
+		Hyperdrive
+		`"Basrem" Atomic Thruster`
+		`"Baellie" Atomic Engines`
+	licenses
+		"Jezezem Ships License"
+	turret 0 0 "Twin Tharwag Cannon Turret"
+	engine 0 0
+
+ship "Combat Fighter"
+	sprite "ship/combat fighter"
+	attributes
+		cost 6000000
+		category "Fighter"
+		"mass" 100
+		"drag" 9
+		"hull" 200
+		"shields" 300
+		"fuel capacity" 0
+		"required crew" 1
+		"bunks" 1
+		"outfit space" 100
+		"cargo space" 10
+		"engine capacity" 200
+		"weapon capacity" 100
+	outfits
+		"Zashow Laser Turret" 4
+	licenses
+		"Jezezem Ships License"
+	turret -1.5 -11.5 "Zashow Laser Turret"
+	turret -1.5 -29.5 "Zashow Laser Turret"
+	turret -19 3.5 "Zashow Laser Turret"
+	turret 17.5 3.5 "Zashow Laser Turret"
+	engine 0 0
+
+ship "Ruby Donkey"
+	sprite "ship/ruby donkey"
+	attributes
+		cost 19400000
+		category "Utility"
+		"mass" 2500
+		"drag" 20
+		"hull" 50
+		"shields" 100
+		"fuel capacity" 200
+		"required crew" 50
+		"bunks" 50
+		"outfit space" 100
+		"cargo space" 10
+		"engine capacity" 200
+		"weapon capacity" 100
+		"thrust" 10
+		"turn" 10
+	outfits
+		Hyperdrive
+	licenses
+		"Jezezem Ships License"
+	engine 0 0
+	bay Fighter -21.5 1.5
+	bay Fighter -21.5 1.5
+	bay Fighter -21.5 1.5
+	bay Fighter -21.5 1.5
+	bay Fighter -20.5 -39.5
+	bay Fighter -20.5 -39.5
+	bay Fighter -20.5 -39.5
+	bay Fighter -20.5 -39.5
+	bay Fighter -65.5 -2.5
+	bay Fighter -65.5 -2.5
+	bay Fighter -65.5 -2.5
+	bay Fighter -65.5 -2.5
+	bay Fighter -23.5 30.5
+	bay Fighter -23.5 30.5
+	bay Fighter -23.5 30.5
+	bay Fighter -23.5 30.5
+	bay Fighter 26.5 -1.5
+	bay Fighter 26.5 -1.5
+	bay Fighter 26.5 -1.5
+	bay Fighter 26.5 -1.5
+
+ship "Diamond Horse"
+	sprite "ship/diamond horse"
+		cost 6000000
+		category "Superheavy"
+		"mass" 3000
+		"drag" 55
+		"hull" 123000
+		"shields" 39000
+		"fuel capacity" 200
+		"required crew" 200
+		"bunks" 350
+		"outfit space" 300
+		"cargo space" 200
+		"engine capacity" 200
+		"weapon capacity" 100
+	outfits
+		Hyperdrive
+		"Zachow Gun Turret" 9
+		"Zachow Gun" 10
+		"Enotsyek Mutnauq"		
+	licenses
+		"Jezezem Ships License"
+		"Jezezem Outfits License"
+	turret -20.5 2.5
+	turret -21.5 -38.5
+	turret 26.5 -37.5
+	turret -67.5 -38.5
+	turret -65.5 0.5
+	turret -65.5 35.5
+	turret 26.5 2.5
+	turret 27.5 36.5
+	turret -23.5 34.5
+	gun -22.5 -84.5
+	gun -23.5 76.5
+	gun 25.5 -37.5
+	gun -21.5 -37.5
+	gun -67.5 -38.5
+	gun -65.5 0.5
+	gun -67.5 35.5
+	gun -23.5 35.5
+	gun 25.5 35.5
+	gun 26.5 4.5
+	engine 0 0
+
+ship "Golden Mule"
+	sprite "ship/golden mule"
+		cost 19400000
+		category "Utility"
+		"mass" 2500
+		"drag" 20
+		"hull" 50
+		"shields" 100
+		"fuel capacity" 200
+		"required crew" 50
+		"bunks" 50
+		"outfit space" 100
+		"cargo space" 10
+		"engine capacity" 200
+		"weapon capacity" 100
+	outfits
+		Hyperdrive
+	licenses
+		"Jezezem Ships License"
+	engine 0 0
+	bay Drone -24.5 -85.5
+	bay Drone -24.5 -85.5
+	bay Drone -24.5 -85.5
+	bay Drone -24.5 -85.5
+	bay Drone -23.5 -39.5
+	bay Drone -23.5 -39.5
+	bay Drone -23.5 -39.5
+	bay Drone -23.5 -39.5
+	bay Drone -23.5 -1.5
+	bay Drone -23.5 -1.5
+	bay Drone -23.5 -1.5
+	bay Drone -23.5 -1.5
+	bay Drone -24.5 35.5
+	bay Drone -24.5 35.5
+	bay Drone -24.5 35.5
+	bay Drone -24.5 35.5
+	bay Drone -23.5 71.5
+	bay Drone -23.5 71.5
+	bay Drone -23.5 71.5
+	bay Drone -23.5 71.5

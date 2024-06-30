@@ -1,0 +1,438 @@
+mission "Wealthy Jezezem Feshhh [1]"
+	name "Wealthy Jezezem to Feshhh"
+	description "These Seventy Five Wealthy Jezezem want to go back home to <planet> in the <system> system and will pay you <payment> credits."
+	destination Bjos
+	source Ajos
+	passengers 75
+	payment 600000
+	job
+	repeat
+	on complete
+		dialog "The crowd heading toward the exit is large and a and one of the Jezezem stops just long enough to hand you a pile of credits worth <payment>, then departs."
+
+mission "Wealthy Jezezem Feshhh [2]"
+	name "Wealthy Jezezem to Feshhh"
+	description "These Seventy Five Wealthy Jezezem want to go back home to <planet> in the <system> system and will pay you <payment> credits."
+	destination Bjos
+	source Cjos
+	passengers 75
+	payment 600000
+	job 
+	repeat
+	on complete
+		dialog "The crowd heading toward the exit is large and a and one of the Jezezem stops just long enough to hand you a pile of credits worth <payment>, then departs."
+
+
+mission "Wealthy Jezezem Feshhh [3]"
+	name "Wealthy Jezezem to Feshhh"
+	description "These Seventy Five Wealthy Jezezem want to go back home to <planet> in the <system> system and will pay you <payment> credits."
+	destination Bjos
+	source Djos
+	passengers 75
+	payment 600000
+	job 
+	repeat
+	on complete
+		dialog "The crowd heading toward the exit is large and a and one of the Jezezem stops just long enough to hand you a pile of credits worth <payment>, then departs."
+
+mission "Wealthy Jezezem Feshhh [4]"
+	name "Wealthy Jezezem to Feshhh"
+	description "These Seventy Five Wealthy Jezezem want to go back home to <planet> in the <system> system and will pay you <payment> credits."
+	destination Bjos
+	source Ejos
+	passengers 75
+	payment 600000
+	job 
+	repeat
+	on complete
+		dialog "The crowd heading toward the exit is large and a and one of the Jezezem stops just long enough to hand you a pile of credits worth <payment>, then departs."
+
+mission "Wealthy Jezezem Feshhh [5]"
+	name "Wealthy Jezezem to Feshhh"
+	description "These Seventy Five Wealthy Jezezem want to go back home to <planet> in the <system> system and will pay you <payment> credits."
+	destination Bjos
+	source Fjos
+	passengers 75
+	payment 600000
+	job 
+	repeat
+	on complete
+		dialog "The crowd heading toward the exit is large and a and one of the Jezezem stops just long enough to hand you a pile of credits worth <payment>, then departs."
+
+mission "Wealthy Jezezem Feshhh [6]"
+	name "Wealthy Jezezem to Feshhh"
+	description "These Seventy Five Wealthy Jezezem want to go back home to <planet> in the <system> system and will pay you <payment> credits."
+	destination Bjos
+	source Gjos
+	passengers 75
+	payment 600000
+	job 
+	repeat
+	on complete
+		dialog "The crowd heading toward the exit is large and a and one of the Jezezem stops just long enough to hand you a pile of credits worth <payment>, then departs."
+
+mission "Outrageously Wealthy Jezezem Geshhh [1]"
+	name "Outrageously Wealthy Jezezem to Geshhh"
+	description "This Outrageously Wealthy Jezezem wants to go to <planet> in the <system> system and will pay you <payment> credits."
+	destination Ajos
+	source Gjos
+	passengers 1
+	payment 53000
+	job 
+	repeat
+	on complete
+		dialog "The Outrageously Wealthy Jezezem has been pestering you with questions that you answer and when the trip is over the Outrageously Wealthy Jezezem pays you 2,500 more than agreed."
+
+mission "Outrageously Wealthy Jezezem Geshhh [2]"
+	name "Outrageously Wealthy Jezezem to Geshhh"
+	description "This Outrageously Wealthy Jezezem wants to go to <planet> in the <system> system and will pay you <payment> credits."
+	destination Ajos
+	source Fjos
+	passengers 1
+	payment 53000
+	job 
+	repeat
+	on complete
+		dialog "The Outrageously Wealthy Jezezem has been pestering you with questions that you answer and when the trip is over the Outrageously Wealthy Jezezem pays you 2,500 more than agreed."
+
+mission "Outrageously Wealthy Jezezem Geshhh [3]"
+	name "Outrageously Wealthy Jezezem to Geshhh"
+	description "This Outrageously Wealthy Jezezem wants to go to <planet> in the <system> system and will pay you <payment> credits."
+	destination Ajos
+	source Ejos
+	passengers 1
+	payment 53000
+	job 
+	repeat
+	on complete
+		dialog "The Outrageously Wealthy Jezezem has been pestering you with questions that you answer and when the trip is over the Outrageously Wealthy Jezezem pays you 2,500 more than agreed."
+
+mission "Outrageously Wealthy Jezezem Geshhh [4]"
+	name "Outrageously Wealthy Jezezem to Geshhh"
+	description "This Outrageously Wealthy Jezezem wants to go to <planet> in the <system> system and will pay you <payment> credits."
+	destination Ajos
+	source Djos
+	passengers 1
+	payment 53000
+	job 
+	repeat
+	on complete
+		dialog "The Outrageously Wealthy Jezezem has been pestering you with questions that you answer and when the trip is over the Outrageously Wealthy Jezezem pays you 2,500 more than agreed."
+
+mission "Outrageously Wealthy Jezezem Geshhh [5]"
+	name "Outrageously Wealthy Jezezem to Geshhh"
+	description "This Outrageously Wealthy Jezezem wants to go to <planet> in the <system> system and will pay you <payment> credits."
+	destination Ajos
+	source Cjos
+	passengers 1
+	payment 53000
+	job 
+	repeat
+	on complete
+		dialog "The Outrageously Wealthy Jezezem has been pestering you with questions that you answer and when the trip is over the Outrageously Wealthy Jezezem pays you 2,500 more than agreed."
+
+mission "Outrageously Wealthy Jezezem Geshhh [6]"
+	name "Outrageously Wealthy Jezezem to Geshhh"
+	description "This Outrageously Wealthy Jezezem wants to go to <planet> in the <system> system and will pay you <payment> credits."
+	destination Ajos
+	source Bjos
+	passengers 1
+	payment 53000
+	job 
+	repeat
+	on complete
+		dialog "The Outrageously Wealthy Jezezem has been pestering you with questions that you answer and when the trip is over the Outrageously Wealthy Jezezem pays you 2,500 more than agreed."
+
+mission "Bulk Delivery Deshhh [1]"
+	name "Bulk delivery to Deshhh"
+	description "This Business Manager wants Eighty Seven tons of silver to <planet> in the <system> system and will pay you <payment> credits."
+	destination Djos
+	source Gjos
+	cargo silver 87
+	payment 150000
+	job 
+	repeat
+	on complete
+		dialog "You deliver the Silver to the  factory where the Silver is accepted gratefully. You get a notification that <payment> has been added to your account."
+
+mission "Bulk Delivery Deshhh [2]"
+	name "Bulk delivery to Deshhh"
+	description "This Business Manager wants Eighty Seven tons of silver to <planet> in the <system> system and will pay you <payment> credits."
+	destination Djos
+	source Fjos
+	cargo silver 87
+	payment 150000
+	job 
+	repeat
+	on complete
+		dialog "You deliver the Silver to the  factory where the Silver is accepted gratefully. You get a notification that <payment> has been added to your account."
+
+mission "Bulk Delivery Deshhh [3]"
+	name "Bulk delivery to Deshhh"
+	description "This Business Manager wants Eighty Seven tons of silver to <planet> in the <system> system and will pay you <payment> credits."
+	destination Djos
+	source Ejos
+	cargo silver 87
+	payment 150000
+	job 
+	repeat
+	on complete
+		dialog "You deliver the Silver to the  factory where the Silver is accepted gratefully. You get a notification that <payment> has been added to your account."
+
+mission "Bulk Delivery Deshhh [4]"
+	name "Bulk delivery to Deshhh"
+	description "This Business Manager wants Eighty Seven tons of silver to <planet> in the <system> system and will pay you <payment> credits."
+	destination Djos
+	source Cjos
+	cargo silver 87
+	payment 150000
+	job 
+	repeat
+	on complete
+		dialog "You deliver the Silver to the  factory where the Silver is accepted gratefully. You get a notification that <payment> has been added to your account."
+
+mission "Bulk Delivery Deshhh [5]"
+	name "Bulk delivery to Deshhh"
+	description "This Business Manager wants Eighty Seven tons of silver to <planet> in the <system> system and will pay you <payment> credits."
+	destination Djos
+	source Bjos
+	cargo silver 87
+	payment 150000
+	job 
+	repeat
+	on complete
+		dialog "You deliver the Silver to the  factory where the Silver is accepted gratefully. You get a notification that <payment> has been added to your account."
+
+mission "Bulk Delivery Deshhh [6]"
+	name "Bulk delivery to Deshhh"
+	description "This Business Manager wants Eighty Seven tons of silver to <planet> in the <system> system and will pay you <payment> credits."
+	destination Djos
+	source Ajos
+	cargo silver 87
+	payment 150000
+	job 
+	repeat
+	on complete
+		dialog "You deliver the Silver to the  factory where the Silver is accepted gratefully. You get a notification that <payment> has been added to your account."
+
+mission "Miners Eshhh [1]"
+	name "Miners to Eshhh"
+	description "These Five miners want a Transport to <planet> in the <system> system so they can mine its good ore and will pay you <payment> credits."
+	destination Cjos
+	source Ajos
+	passengers 5
+	payment 20000
+	job 
+	repeat
+	on complete
+		dialog "You "Deliver" the Miners to Cjos where they decide not to pay and run away. Later, you get a notification that <payment> has been added to your account."
+
+mission "Miners Eshhh [2]"
+	name "Miners to Eshhh"
+	description "These Five miners want a Transport to <planet> in the <system> system so they can mine its good ore and will pay you <payment> credits."
+	destination Cjos
+	source Bjos
+	passengers 5
+	payment 20000
+	job 
+	repeat
+	on complete
+		dialog "You "Deliver" the Miners to Cjos where they decide not to pay and run away. Later, you get a notification that <payment> has been added to your account."
+
+mission "Miners Eshhh [3]"
+	name "Miners to Eshhh"
+	description "These Five miners want a Transport to <planet> in the <system> system so they can mine its good ore and will pay you <payment> credits."
+	destination Cjos
+	source Djos
+	passengers 5
+	payment 20000
+	job 
+	repeat
+	on complete
+		dialog "You "Deliver" the Miners to Cjos where they decide not to pay and run away. Later, you get a notification that <payment> has been added to your account."
+
+mission "Miners Eshhh [4]"
+	name "Miners to Eshhh"
+	description "These Five miners want a Transport to <planet> in the <system> system so they can mine its good ore and will pay you <payment> credits."
+	destination Cjos
+	source Ejos
+	passengers 5
+	payment 20000
+	job 
+	repeat
+	on complete
+		dialog "You "Deliver" the Miners to Cjos where they decide not to pay and run away. Later, you get a notification that <payment> has been added to your account."
+
+mission "Miners Eshhh [5]"
+	name "Miners to Eshhh"
+	description "These Five miners want a Transport to <planet> in the <system> system so they can mine its good ore and will pay you <payment> credits."
+	destination Cjos
+	source Fjos
+	passengers 5
+	payment 20000
+	job 
+	repeat
+	on complete
+		dialog "You "Deliver" the Miners to Cjos where they decide not to pay and run away. Later, you get a notification that <payment> has been added to your account."
+
+mission "Miners Eshhh [6]"
+	name "Miners to Eshhh"
+	description "These Five miners want a Transport to <planet> in the <system> system so they can mine its good ore and will pay you <payment> credits."
+	destination Cjos
+	source Gjos
+	passengers 5
+	payment 20000
+	job 
+	repeat
+	on complete
+		dialog "You "Deliver" the Miners to Cjos where they decide not to pay and run away. Later, you get a notification that <payment> has been added to your account."
+
+mission "Tourists Ceshhh [1]"
+	name "Transport Tourists to Ceshhh"
+	description "Transport Fifteen Jezezem Tourists to <planet> in the <system> system so they can mine its good ore and will pay for <payment> credits."
+	destination Ejos
+	source Gjos
+	passengers 15
+	payment 8000
+	job 
+	repeat
+	on complete
+		dialog "You wish the tourists bests of luck and recive <payment> credits."
+
+mission "Tourists Ceshhh [2]"
+	name "Transport Tourists to Ceshhh"
+	description "Transport Fifteen Jezezem Tourists to <planet> in the <system> system so they can mine its good ore and will pay for <payment> credits."
+	destination Ejos
+	source Fjos
+	passengers 15
+	payment 8000
+	job 
+	repeat
+	on complete
+		dialog "You wish the tourists bests of luck and recive <payment> credits."
+
+mission "Tourists Ceshhh [3]"
+	name "Transport Tourists to Ceshhh"
+	description "Transport Fifteen Jezezem Tourists to <planet> in the <system> system so they can mine its good ore and will pay for <payment> credits."
+	destination Ejos
+	source Djos
+	passengers 15
+	payment 8000
+	job 
+	repeat
+	on complete
+		dialog "You wish the tourists bests of luck and recive <payment> credits."
+
+mission "Tourists Ceshhh [4]"
+	name "Transport Tourists to Ceshhh"
+	description "Transport Fifteen Jezezem Tourists to <planet> in the <system> system so they can mine its good ore and will pay for <payment> credits."
+	destination Ejos
+	source Cjos
+	passengers 15
+	payment 8000
+	job 
+	repeat
+	on complete
+		dialog "You wish the tourists bests of luck and recive <payment> credits."
+
+mission "Tourists Ceshhh [5]"
+	name "Transport Tourists to Ceshhh"
+	description "Transport Fifteen Jezezem Tourists to <planet> in the <system> system so they can mine its good ore and will pay for <payment> credits."
+	destination Ejos
+	source Bjos
+	passengers 15
+	payment 8000
+	job 
+	repeat
+	on complete
+		dialog "You wish the tourists bests of luck and recive <payment> credits."
+
+mission "Tourists Ceshhh [6]"
+	name "Transport Tourists to Ceshhh"
+	description "Transport Fifteen Jezezem Tourists to <planet> in the <system> system so they can mine its good ore and will pay for <payment> credits."
+	destination Ejos
+	source Ajos
+	passengers 15
+	payment 8000
+	job 
+	repeat
+	on complete
+		dialog "You wish the tourists bests of luck and recive <payment> credits."
+
+mission "Return Farmers Beshhh [1]"
+	name "Return Farmers to Beshhh"
+	description "Return Seventeen Farmers back to there farms in <planet> in the <system> system so they can mine its good ore and will pay for <payment> credits."
+	destination Fjos
+	source Gjos
+	passengers 17
+	cargo supplies 30
+	payment 95500
+	job 
+	repeat
+	on complete
+		dialog "You wish the farmers bests of luck and recive <payment> credits."
+
+mission "Return Farmers Beshhh [2]"
+	name "Return Farmers to Beshhh"
+	description "Return Seventeen Farmers back to there farms in <planet> in the <system> system so they can mine its good ore and will pay for <payment> credits."
+	destination Fjos
+	source Ejos
+	passengers 17
+	cargo supplies 30
+	payment 95500
+	job 
+	repeat
+	on complete
+		dialog "You wish the farmers bests of luck and recive <payment> credits."
+
+mission "Return Farmers Beshhh [3]"
+	name "Return Farmers to Beshhh"
+	description "Return Seventeen Farmers back to there farms in <planet> in the <system> system so they can mine its good ore and will pay for <payment> credits."
+	destination Fjos
+	source Djos
+	passengers 17
+	cargo supplies 30
+	payment 95500
+	job 
+	repeat
+	on complete
+		dialog "You wish the farmers bests of luck and recive <payment> credits."
+
+mission "Return Farmers Beshhh [4]"
+	name "Return Farmers to Beshhh"
+	description "Return Seventeen Farmers back to there farms in <planet> in the <system> system so they can mine its good ore and will pay for <payment> credits."
+	destination Fjos
+	source Cjos
+	passengers 17
+	cargo supplies 30
+	payment 95500
+	job 
+	repeat
+	on complete
+		dialog "You wish the farmers bests of luck and recive <payment> credits."
+
+mission "Return Farmers Beshhh [5]"
+	name "Return Farmers to Beshhh"
+	description "Return Seventeen Farmers back to there farms in <planet> in the <system> system so they can mine its good ore and will pay for <payment> credits."
+	destination Fjos
+	source Bjos
+	passengers 17
+	cargo supplies 30
+	payment 95500
+	job 
+	repeat
+	on complete
+		dialog "You wish the farmers bests of luck and recive <payment> credits."
+
+mission "Return Farmers Beshhh [6]"
+	name "Return Farmers to Beshhh"
+	description "Return Seventeen Farmers back to there farms in <planet> in the <system> system so they can mine its good ore and will pay for <payment> credits."
+	destination Fjos
+	source Ajos
+	passengers 17
+	cargo supplies 30
+	payment 95500
+	job 
+	repeat
+	on complete
+		dialog "You wish the farmers bests of luck and recive <payment> credits."

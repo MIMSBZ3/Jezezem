@@ -1,0 +1,51 @@
+phrase "Jezezem Friendly Military"
+	word
+		"Hello! "
+		"Welcome! "
+		"Hi! "
+		"Captain <last>! "
+	word
+		"Enter freely unto "
+		"Come anytime to "
+	phrase
+		"Systems Jezezem"
+	word
+		". Though we protect "
+	phrase 
+		"Systems Jezezem"
+	word
+		,
+	word
+		"You should buy our"
+	word
+		"wonderful "
+		"splendid "
+	phrase
+		"Jezezem Ships"
+	word
+		"s!"
+
+phrase "Jezezem Ships"
+	word
+		"Combat Drone"
+		"Combat Fighter"
+		"Ruby Donkey"
+		"Diamond Horse"
+		"Golden Mule"
+
+phrase "Systems Jezezem"
+	word
+		"our systems"
+		"our space"
+		"Jezezem space"
+		"Jezezem systems"
+
+phrase "Jezezem Man"
+	word 
+		"Is-sus-sus-agaka "
+		"Re-ue-ge-goga "
+		"Qewuwa-waw-waw "
+		"Gers-fhed-thgeh-sef "
+		"Ga-zaga-weay-hompo-to "
+		"Ber-ejez-un "
+		"Nutharen-un-giny-ya-gooza "

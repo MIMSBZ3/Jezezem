@@ -1,0 +1,577 @@
+system Geshhh
+	pos -1010.5 122.5
+	government Jezezem
+	link Feshhh
+	trade Clothing 357
+	trade Electronics 889
+	trade Equipment 419
+	trade Food 335
+	trade "Heavy Metals" 723
+	trade Industrial 799
+	trade "Luxury Goods" 1101
+	trade Medical 545
+	trade Metal 471
+	trade Plastic 423
+	fleet "Large Jezezem" 200
+	object Ajos
+		sprite planet/rock4-b
+		distance 1000
+		period 60
+	object "Geshhh Wormhole"
+		government uninhabited 
+		sprite planet/wormhole-red
+
+system Feshhh
+	pos -1007 83
+	government Jezezem
+	link Eshhh
+	link Geshhh
+	trade Clothing 406
+	trade Electronics 874
+	trade Equipment 588
+	trade Food 393
+	trade "Heavy Metals" 1275
+	trade Industrial 686
+	trade "Luxury Goods" 990
+	trade Medical 881
+	trade Metal 325
+	trade Plastic 535
+	object Bjos
+		sprite planet/rock4-b
+		distance 1000
+		period 60
+
+system Eshhh
+	pos -1018 56
+	government Jezezem
+	link Deshhh
+	link Feshhh
+	trade Clothing 380
+	trade Electronics 856
+	trade Equipment 545
+	trade Food 133
+	trade "Heavy Metals" 1258
+	trade Industrial 761
+	trade "Luxury Goods" 946
+	trade Medical 627
+	trade Metal 384
+	trade Plastic 249
+	object Cjos
+		sprite planet/rock4-b
+		distance 1000
+		period 60
+
+system Deshhh
+	pos -1114 54
+	government Jezezem
+	link Ceshhh
+	link Eshhh
+	trade Clothing 281
+	trade Electronics 594
+	trade Equipment 395
+	trade Food 328
+	trade "Heavy Metals" 959
+	trade Industrial 595
+	trade "Luxury Goods" 1188
+	trade Medical 753
+	trade Metal 375
+	trade Plastic 341
+	object Djos
+		sprite planet/rock4-b
+		distance 1000
+		period 60
+
+system Ceshhh
+	pos -1126 78
+	government Jezezem
+	link Deshhh
+	trade Clothing 302
+	trade Electronics 813
+	trade Equipment 572
+	trade Food 401
+	trade "Heavy Metals" 810
+	trade Industrial 678
+	trade "Luxury Goods" 1045
+	trade Medical 866
+	trade Metal 450
+	trade Plastic 242
+	object "Aeshhh Wormhole"
+		sprite planet/wormhole-red
+		distance 1516.236
+		period 700
+	object "Beshhh Wormhole"
+		sprite planet/wormhole-red
+		distance 1506.236
+		period 700
+	object Ejos
+		sprite planet/ocean2-b
+		distance 1000
+		period 60
+
+system Beshhh
+	pos -1124 100
+	government Jezezem
+	trade Clothing 151
+	trade Electronics 754
+	trade Equipment 344
+	trade Food 529
+	trade "Heavy Metals" 1273
+	trade Industrial 843
+	trade "Luxury Goods" 1515
+	trade Medical 919
+	trade Metal 227
+	trade Plastic 477
+	object Fjos
+		sprite "planet/zenith hot"
+		distance 1000
+		period 20
+	object "Beshhh Wormhole"
+		sprite planet/wormhole-red
+		distance 1506.236
+		period 700
+
+system Aeshhh
+	pos -1110 123
+	government Jezezem
+	trade Clothing 365
+	trade Electronics 647
+	trade Equipment 603
+	trade Food 236
+	trade "Heavy Metals" 809
+	trade Industrial 782
+	trade "Luxury Goods" 1299
+	trade Medical 676
+	trade Metal 290
+	trade Plastic 244
+	object Gjos
+		sprite planet/desert9
+		distance 1000
+		period 20
+	object "Aeshhh Wormhole"
+		sprite planet/wormhole-red
+		distance 1516.236
+		period 700
+
+system Poxaw
+	pos -866.958 236.5
+	government Uninhabited
+	link Lufarel
+	trade Clothing 274
+	trade Electronics 730
+	trade Equipment 645
+	trade Food 439
+	trade "Heavy Metals" 967
+	trade Industrial 725
+	trade "Luxury Goods" 1187
+	trade Medical 787
+	trade Metal 246
+	trade Plastic 469
+	object "Poxaw Wormhole"
+		sprite planet/wormhole-red
+		distance 1516.236
+		period 700
+
+system Lufarel
+	pos -903.958 220
+	government Uninhabited
+	link Poxaw
+	link Zazoosh
+	trade Clothing 274
+	trade Electronics 730
+	trade Equipment 645
+	trade Food 439
+	trade "Heavy Metals" 967
+	trade Industrial 725
+	trade "Luxury Goods" 1187
+	trade Medical 787
+	trade Metal 246
+	trade Plastic 469
+
+system Zazoosh
+	pos -963 176
+	government Uninhabited
+	link Cilkimack
+	link Lufarel
+	trade Clothing 274
+	trade Electronics 730
+	trade Equipment 645
+	trade Food 439
+	trade "Heavy Metals" 967
+	trade Industrial 725
+	trade "Luxury Goods" 1187
+	trade Medical 787
+	trade Metal 246
+	trade Plastic 469
+	fleet 
+
+system Cilkimack
+	pos -1026.96 195.118
+	government Uninhabited
+	link Zazoosh
+	trade Clothing 274
+	trade Electronics 730
+	trade Equipment 645
+	trade Food 439
+	trade "Heavy Metals" 967
+	trade Industrial 725
+	trade "Luxury Goods" 1187
+	trade Medical 787
+	trade Metal 246
+	trade Plastic 469
+	object "Geshhh Wormhole"
+		sprite planet/wormhole-red
+		distance 1516.236
+		period 700
+		object
+			sprite "planet/asteroid base"
+				scale 0.1
+			distance 500
+			period 15
+		object
+			sprite "planet/asteroid base"
+				scale 0.1
+			distance 500
+			period 10
+		object
+			sprite "planet/asteroid base"
+				scale 0.1
+			distance 500
+			period 20
+
+system Alkaid
+	object "Poxaw Wormhole"
+		sprite planet/wormhole-red
+		distance 1516.236
+		period 700
+	object
+		sprite star/g0
+		period 10
+	object
+		sprite planet/cloud5
+		distance 363.84
+		period 84.472
+		object
+			sprite planet/mercury
+			distance 221
+			period 20.407
+	object Thunder
+		sprite planet/ocean1
+		distance 934.8
+		period 347.877
+		object
+			sprite planet/luna
+			distance 178
+			period 22.71
+	object
+		sprite planet/gas0
+		distance 1927.89
+		period 1030.31
+		object
+			sprite planet/dust3-b
+			distance 266
+			period 12.068
+		object
+			sprite planet/dust1-b
+			distance 389
+			period 21.343
+		object
+			sprite planet/dust2-b
+			distance 508
+			period 31.851
+		object
+			sprite planet/oberon-b
+			distance 611
+			period 42.013
+
+system Uttna
+	object
+		sprite star/a8
+		period 10
+	object
+		sprite planet/dust6
+		distance 374
+		period 52.821
+	object
+		sprite planet/rock4
+		distance 1068
+		period 254.892
+		object
+			sprite planet/ice0
+			distance 195
+			period 102.9
+	object
+		sprite planet/gas7-hot
+		distance 5174
+		period 2717.93
+		object
+			sprite planet/dust3-b
+			distance 198
+			period 105.316
+		object
+			sprite planet/dust7-b
+			distance 350
+			period 247.515
+
+planet "Geshhh Wormhole"
+	attributes "requires: quantum keystone"
+	spaceport " "
+
+wormhole "Geshhh Wormhole"
+	mappable
+	link Cilkimack Geshhh
+	link Geshhh Cilkimack
+	color "wormholes: Ember Waste"
+
+planet "Aeshhh Wormhole"
+	attributes "requires: enotsyek mutnauq"
+	spaceport " "
+	wormhole "Aeshhh Wormhole"
+
+wormhole "Aeshhh Wormhole"
+	mappable
+	link Ceshhh Aeshhh
+	link Aeshhh Ceshhh
+	color "wormholes: Ember Waste"
+
+planet "Beshhh Wormhole"
+	attributes "requires: quantum keystone"
+	spaceport " "
+	wormhole "Beshhh Wormhole"
+
+wormhole "Beshhh Wormhole"
+	mappable
+	link Ceshhh Beshhh
+	link Beshhh Ceshhh
+	color "wormholes: Ember Waste"
+
+planet "Poxaw Wormhole"
+	wormhole "Poxaw Wormhole"
+
+wormhole "Poxaw Wormhole"
+	mappable
+	link Alkaid Poxaw
+	link Poxaw Alkaid
+	color .5 .2 .8
+
+planet "Fagl Gak Wormhole"
+	wormhole "Fagl Gak Wormhole"
+
+wormhole "Fagl Gak Wormhole"
+	link Zosae Zazoosh
+	color .5 .2 .8
+
+planet Gjos
+	attributes jezezem
+	landscape land/water7
+	description "The original home to all Jezezem, this little planet is foresty and nice. The climate helps grow crops and is cool."
+	spaceport "The spaceport is full of Jezezem ships and there are quite a lot of auctions going on."
+	government Jezezem
+
+planet Fjos
+	attributes jezezem
+	landscape land/lava8
+	description "Though a bit hot, this volcanic planet is quite populated and is, in some parts, good for farming."
+	spaceport "The spaceport is big and underneath a gigantic dome of marble raised on large poles."
+	government Jezezem
+
+planet Ejos
+	attributes jezezem
+	landscape land/sea5
+	description "This planet is very populated, having about fifty new baby Jezezem born per second. Though mostly covered with water, the government has started building new islands with metal, then putting dirt and grass on top."
+	spaceport "Rather big, the spaceport is full of warehouses and sheds full of gas."
+	government Jezezem
+
+planet Djos
+	attributes jezezem
+	landscape land/water6
+	description "This planet is like ancient Earth, and is strange. The sky is pink and the clouds are pink and purple."
+	spaceport "The Refuelers are made of wood, and the houses in the spaceport made of trees."
+	government Jezezem
+
+planet Cjos
+	attributes jezezem
+	landscape land/loc0
+	description "A mining place was and a mining place is, a mining place is and a mining place will be, this planet has exceedingly good ore."
+	spaceport "Only a few huts, the spaceport not large, it seems like the people are on the inside, not the outside."
+	government Jezezem
+
+planet Bjos
+	attributes jezezem
+	landscape land/water15
+	description "With a few dead trees, the planet is a grassland of tall grass."
+	spaceport "The Jezezem look at you strangely and a few of them try to talk to you."
+	government Jezezem
+
+planet Ajos
+	attributes jezezem
+	landscape land/fog10
+	description "It seems like the planet is covered with trees, and you have a hard time locating the spaceport."
+	spaceport "Though it is located in the middle of the Jungle it has been cleared of most trees."
+	government Jezezem
+
+government "Merchant"
+	"travel restrictions"
+		system Poxaw
+
+government "Militia"
+	"travel restrictions"
+		system Poxaw
+
+government "Free Worlds"
+	"travel restrictions"
+		system Poxaw
+
+government "Ka'het"
+	"travel restrictions"
+		system Alkaid
+
+government "Ka'het (Infighting)"
+	"travel restrictions"
+		system Alkaid
+
+government "Pirate"
+	"travel restrictions"
+		system Poxaw
+
+government "Merchant (Fleeing)"
+	"travel restrictions"
+		system Poxaw
+
+system Zosae
+	hidden
+	pos -467 503
+	government "Ah gos"
+	link "Fagl Gak"
+	habitable 3000
+	belt 1120
+	belt 1925 6
+	asteroids "small rock" 39 1.391
+	asteroids "medium rock" 107 1.414
+	asteroids "large rock" 1 2.234
+	asteroids "small metal" 41 2.029
+	asteroids "medium metal" 27 2.143
+	asteroids "large metal" 90 1.664
+	minables neodymium 12 2.439
+	minables tungsten 38 2.799
+	minables titanium 58 1.792
+	object "Fagl Gak Wormhole"
+		sprite planet/wormhole-red
+		distance 1516.236
+		period 700
+	object
+		sprite star/k-giant
+		period 10
+	object
+		sprite planet/forest4
+		distance 602
+		period 107.868
+	object 321123
+		sprite planet/forest5
+		distance 1175
+		period 294.141
+		object
+			sprite planet/ice7-b
+			distance 180
+			period 63.201
+	object
+		sprite planet/gas13
+		distance 1959
+		period 633.215
+	object
+		sprite planet/gas13-b
+		distance 2719
+		period 1035.412
+		object
+			sprite planet/io-b
+			distance 307
+			period 203.333
+	object
+		sprite planet/gas10-hot
+		distance 4821
+		period 2444.585
+		object
+			sprite planet/rock7-b
+			distance 219
+			period 153.313
+	object
+		sprite planet/gas7-r
+		distance 11106
+		period 8547.436
+		object
+			sprite planet/dust5-b
+			distance 463
+			period 260.729
+
+planet 321123
+	description 321123
+	spaceport 123321
+	government "Ah gos"
+	"required reputation" -10000
+
+system "Fagl Gak"
+	hidden
+	pos -410 507
+	government "Ah gos"
+	link Zosae
+	habitable 3000
+	belt 1120
+	belt 1925 6
+	asteroids "small rock" 39 1.391
+	asteroids "medium rock" 107 1.414
+	asteroids "large rock" 1 2.234
+	asteroids "small metal" 41 2.029
+	asteroids "medium metal" 27 2.143
+	asteroids "large metal" 90 1.664
+	minables neodymium 12 2.439
+	minables tungsten 38 2.799
+	minables titanium 58 1.792
+	object
+		sprite star/k-giant
+		period 10
+	object
+		sprite planet/forest4
+		distance 602
+		period 107.868
+	object 123321
+		sprite planet/forest5
+		distance 1175
+		period 294.141
+		object
+			sprite planet/ice7-b
+			distance 180
+			period 63.201
+	object
+		sprite planet/gas13
+		distance 1959
+		period 633.215
+	object
+		sprite planet/gas13-b
+		distance 2719
+		period 1035.412
+		object
+			sprite planet/io-b
+			distance 307
+			period 203.333
+	object
+		sprite planet/gas10-hot
+		distance 4821
+		period 2444.585
+		object
+			sprite planet/rock7-b
+			distance 219
+			period 153.313
+	object
+		sprite planet/gas7-r
+		distance 11106
+		period 8547.436
+		object
+			sprite planet/dust5-b
+			distance 463
+			period 260.729
+
+planet 123321
+	description 123321
+	spaceport 321123
+	government "Ah gos"
+	"required reputation" -10000
+

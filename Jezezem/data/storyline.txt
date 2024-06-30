@@ -1,0 +1,73 @@
+event "Jezezem Links at Last"
+	link Zazoosh Geshhh
+	link Zazoosh Feshhh
+	link Zazoosh Eshhh
+	link Zazoosh Deshhh
+	link Zazoosh Ceshhh
+
+event "Jezezem Unlinks at Last"
+	unlink Zazoosh Geshhh
+	unlink Zazoosh Feshhh
+	unlink Zazoosh Eshhh
+	unlink Zazoosh Deshhh
+	unlink Zazoosh Ceshhh
+
+mission "Jezezem Linkage"
+	source "Ajos"
+	job
+	destination "Ajos"
+	description "Link Zazoosh with the Jezezem Galaxy"
+	name "Linkage"
+	on complete
+		event "Jezezem Links at Last"
+		fail
+
+mission "Jezezem Unlinkage"
+	source "Ajos"
+	job
+	destination "Ajos"
+	description "Unlink Zazoosh from the Jezezem Galaxy"
+	name "Unlinkage"
+	on complete
+		event "Jezezem Unlinks at Last"
+		fail
+
+mission "First Contact with Jezezem."
+# Take the repeat out, and finish Below
+	repeat
+	landing
+	stopover "New Boston"
+	stopover Earth
+	stopover Viminal
+	stopover "Hai-home"
+	stopover Bourne
+	destination Ajos
+	clearance "You explain the Mission."
+	source
+		government "Jezezem"
+	description "Take Waket Et Etaml with you to explore the galaxy."
+	name "Jezezem Exploration"
+	on offer
+		conversation
+			"There are Trees on the planet when you step off your starship, in a circle around it, About Twenty yards. You start walking towards the Trees when You see a small group of what look like Giraffes walking toward You."
+			choice 
+				`	(Flee)` 
+					goto death
+				`	(Sit down)`
+					goto question
+			label question
+				`	The Giraffes get closer. You walk towards the Giraffes. They stop and one of them that seems to be the leader steps out and says "Greetings. My name is Waket Et Etaml. What is your name?"`
+			choice
+				`	(Flee)` 
+					goto death
+				`	"My name is <first> <last>."`
+					goto description
+			label description
+				`	Waket Et Etaml says "Great. Can you tell Me, or show Me what aliens are good and what are bad?"`
+			choice 
+				`	"Ok"`
+			`	"Great."`
+				accept
+			label death
+				`	"You run back to your ship. The Giraffes close in and shoot your ship down with laser guns."`
+				die
